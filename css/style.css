@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: poppins, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: rgba(77, 79, 98, 0.5);
+	background-color: #FAFAFA;
+}
+
+.main-header {
+	max-width: 540px;
+	margin: 64px auto;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 26px;
+	font-size: 36px;
+	font-weight: 200;
+	line-height: 1.2;
+	color: #4D4F62;
+}
+
+h1 strong {
+	font-weight: 600;
+}
+
+.features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+}
